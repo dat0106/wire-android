@@ -77,7 +77,7 @@ android {
         targetSdkVersion Versions.TARGET_SDK_VERSION
         versionCode readOrGenerateVersionCode() as Integer
         versionName = readOrGenerateVersionName() as String
-        applicationId "com.waz.zclient"
+        applicationId "com.waz.zclient2"
         testInstrumentationRunner "com.waz.background.TestRunner"
 
         manifestPlaceholders = [
